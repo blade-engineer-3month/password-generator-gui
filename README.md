@@ -2,7 +2,7 @@
 
 Python + Tkinter で作成したパスワード生成アプリです。
 
-## お急ぎの方へ　(Windows)
+## ※ お急ぎの方へ　(Windows)
 ### Windows版のexeファイルのみZIP化しています。
 ### password-generator-guiリポジトリのreleaseのZIPファイルを解凍して使用願います。
 
