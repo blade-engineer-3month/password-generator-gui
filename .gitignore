@@ -1,0 +1,7 @@
+# ビルド関連
+build/
+dist/
+# 仮想環境
+venv/
+# PyInstaller specファイル
+password_app.spec
