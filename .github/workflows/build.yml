@@ -30,11 +30,15 @@ jobs:
 
       - name: Build executable
         run: |
+          cd src
           pyinstaller --noconsole --onefile password_app.py
+          mkdir -p ../dist
+          mv dist/* ../dist/
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: password_app-${{ runner.os }}
           path: dist/
+
 

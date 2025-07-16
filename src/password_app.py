@@ -118,7 +118,7 @@ class PasswordApp:
         pw2 = PasswordGenerator(po2).generate()
         pw3 = PasswordGenerator(po3).generate()
         pw4 = PasswordGenerator(po4).generate()
-        pw5 = PasswordGenerator(po5, custom_symbols="@_").generate()
+        pw5 = PasswordGenerator(po5, custom_symbols="@_#&").generate()
 
         passwords = [pw1, pw2, pw3, pw4, pw5]
 
